@@ -1,0 +1,42 @@
+Funciones de un Servlet
+
+JSP (vista)
+Servlet (Controlador)
+JavaBean (Modelo)
+
+MÉTODOS HTTP Y PROCESAMIENTO CON SERVLETS
+
+GET: 
+- Envia información por un URL.
+- El método que usa el Servlet es doGet()
+
+POST:
+
+- Envía información en el cuerpo del mensaje, no en el URL
+
+- El método que usa el Servlet es doPost()
+
+* HEAD
+* PUT
+* DELETE
+* TRACE
+* CONNECT
+* OPTIONS
+
+1. Se compila y se carga la clase
+
+2. Se crea un subproceso (hilo) del Servlet
+
+3. Se ejecuta el método init()
+
+4. Se ejecuta el método service() 
+se encarga de llamar los metodos http
+
+5. Se ejecuta el método destroy()
+se utiliza para destruir y liberar recursos del servlet
+
+
+
+
+
+
